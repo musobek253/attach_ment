@@ -1,0 +1,9 @@
+Spring:
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/save_attech"
+    username: "postgres"
+    password: "user"
+  Jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
